@@ -1,4 +1,42 @@
 .header {
     background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
     text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    min-width: 320px;
+    height: 320px;
+    position: relative;
+}
+
+.section-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__img {
+        width: 180px;
+        margin: 0 auto;
+    }
+    &__title {
+        color: $just-white;
+        font-weight: 700;
+        font-size: 2.4rem;
+        max-width: 60rem;
+        margin-top: 5rem;
+    }
+    &__paragraph {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: $soft-orange;
+        max-width: 30rem;
+    }
+    &__call-to-accion {
+        color: $warm-black;
+        font-weight: 700;
+        font-size: 1.4rem;
+        background-color: $off-white;
+        padding: 0.5rem 2rem;
+        border-radius: 5px;
+        position: absolute;
+        bottom: -3rem;
+    }
 }
