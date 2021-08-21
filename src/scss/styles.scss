@@ -2,4 +2,5 @@
 @import "normalize.scss";
 @import "mixins.scss";
 @import "config.scss";
-@import "header.scss";
+@import "./header/header.scss";
+@import "./sections/exchange-rates.scss";
