@@ -23,13 +23,72 @@
     }
 }
 
-.content-main-info {
+
+/*content info */
+
+.container-flex-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include tablet {
+        max-width: 800px;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.card {
     width: 280px;
+    margin: 0 auto;
+    &__title {
+        text-align: center;
+        color: $bitcoin-orange;
+    }
+}
+
+.content-items-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
     height: 30rem;
     max-width: 300px;
     margin: 0 auto;
-    background: #2c2b30;
-    -webkit-box-shadow: -2px 4px 9px 3px rgba(125, 121, 121, 0.879);
-    box-shadow: -2px 4px 9px 3px rgba(89, 88, 88, 0.729);
-    border-radius: 5px;
+    background: #39363d;
+    -webkit-box-shadow: -5px 5px 15px 1px rgba(189, 177, 177, 0.879);
+    box-shadow: -5px 5px 15px 1px rgba(18, 16, 15, 0.386);
+    border-radius: 10px;
+    color: $just-white;
+    margin-bottom: 2rem;
+    .item {
+        position: relative;
+        &__name {
+            padding-left: 4rem;
+        }
+        &__icon {
+            position: absolute;
+            left: 10px;
+            width: 20px;
+            height: 25px;
+            display: inline-block;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .bitcoin {
+            background-image: url("../assets/icons/bitcoin-icon-info.svg");
+        }
+        .ethereum {
+            background-image: url("../assets/icons/ethereum.svg");
+        }
+        .ripple {
+            background-image: url("../assets/icons/ripple.svg");
+        }
+        .stellar {
+            background-image: url("../assets/icons/stellar.svg");
+        }
+    }
 }
