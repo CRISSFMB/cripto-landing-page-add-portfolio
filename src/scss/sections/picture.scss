@@ -1,0 +1,20 @@
+.picture-section {
+    background-color: $warm-black-soft;
+    background-image: linear-gradient( to right, rgba(232, 156, 43, 0.66), rgba(50, 64, 79, 0.653)), url("../assets/img/bitcoinbaby2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-width: 320px;
+    height: 332px;
+    position: relative;
+    &__inscription {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        color: $just-white;
+        font-size: 2rem;
+        font-weight: 700;
+        transform: translate(-50%, -50%);
+    }
+}

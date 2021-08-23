@@ -1,0 +1,64 @@
+.subscription {
+    padding: 5rem 1rem;
+    text-align: center;
+    min-width: 320px;
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        margin: 0;
+    }
+    &__paragraph {
+        font-size: 14px;
+        font-weight: 500;
+        color: $greysoft;
+        line-height: 18px;
+    }
+}
+
+.content-flex-card {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 190px;
+    height: 247px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 1px 6px 15px -1px #000000;
+    box-shadow: 1px 6px 15px -1px #000000;
+    &__title {
+        color: $black;
+        margin: 0;
+    }
+    &__price {
+        margin: 0;
+        font-size: 4rem;
+        position: relative;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+        &__icon {
+            font-size: 1rem;
+            position: absolute;
+            top: 1rem;
+            left: -0.5rem;
+        }
+    }
+    &__description {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        line-height: 14.52px;
+        font-weight: 500;
+        color: $greysoft;
+    }
+    &__button-card {
+        &__paragraph {
+            margin: 0;
+        }
+        &__icon {}
+    }
+}
