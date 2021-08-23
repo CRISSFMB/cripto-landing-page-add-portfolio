@@ -64,5 +64,13 @@
         margin: 0;
         border-radius: 5px;
     }
-    &__icon {}
+    &__icon {
+        background-image: url("../assets/icons/orange-right-arrow.svg");
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
