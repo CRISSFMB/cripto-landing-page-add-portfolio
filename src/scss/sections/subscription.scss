@@ -55,10 +55,14 @@
         font-weight: 500;
         color: $greysoft;
     }
-    &__button-card {
-        &__paragraph {
-            margin: 0;
-        }
-        &__icon {}
+}
+
+.button-card {
+    &__paragraph {
+        border: 2px solid #f7931a;
+        padding: 1rem;
+        margin: 0;
+        border-radius: 5px;
     }
+    &__icon {}
 }
