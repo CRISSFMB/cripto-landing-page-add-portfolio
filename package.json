@@ -1,7 +1,7 @@
 {
-    "name": "app-movie",
+    "name": "cripto-landing",
     "version": "1.0.0",
-    "description": "single page aplication",
+    "description": "single page",
     "main": "index.js",
     "author": "cristian mosquera",
     "license": "ISC",
