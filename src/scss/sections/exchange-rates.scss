@@ -6,6 +6,9 @@
     &__img {
         display: block;
         margin: 0 auto;
+        @include desktop {
+            width: 350px;
+        }
     }
 }
 
