@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background-color: $bitcoin-orange;
+    color: $just-white;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    .logo-footer {
+        &__image {
+            width: 37px;
+            height: 24px;
+            vertical-align: middle;
+        }
+    }
+}
